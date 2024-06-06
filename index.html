@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veronica's Portfolio</title>
-    <link href="index.css" rel="stylesheet">
-    <link href="header.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/header.css" rel="stylesheet">
+    <link href="/css/global.css" rel="stylesheet">
+    <script src="index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
@@ -33,38 +35,68 @@
                 <img src="profile-image/436535772_481564420937970_5347353410135299710_n.jpg" alt="Veronica">
             </div>
         </section>
-        <section class="portfolio">
-            <h2>My Projects</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="profile-image/oslo science museum.png" alt="Oslo science museum screenshot of banner">
+        <div class="container">
+            <section class="portfolio">
+                <h2>My Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card" data-project-id="1">
+                        <div class="project-image">
+                            <img src="profile-image/oslo science museum.png" alt="Oslo science museum screenshot of banner">
+                        </div>
+                        <div class="project-info">
+                            <h3>Oslo Science Museum</h3>
+                            <p>A Science museum for kids.</p>
+                        </div>
                     </div>
-                    <div class="project-info">
-                        <h3>Oslo Science Museum</h3>
-                        <p>A Science museum for kids.</p>
+                    <div class="project-card" data-project-id="2">
+                        <div class="project-image">
+                            <img src="profile-image/Rainydays.png" alt="Rainydays screenshot of page">
+                        </div>
+                        <div class="project-info">
+                            <h3>Rainydays</h3>
+                            <p>A website to shop outdoor jackets.</p>
+                        </div>
+                    </div>
+                    <div class="project-card" data-project-id="3">
+                        <div class="project-image">
+                            <img src="profile-image/dough dreas.png" alt="Dough Dreams screenshot of home page">
+                        </div>
+                        <div class="project-info">
+                            <h3>Dough Dreams</h3>
+                            <p>A responsive blogging application.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="profile-image/Rainydays.png" alt="Rainydays screenshot of page">
-                    </div>
-                    <div class="project-info">
-                        <h3>Rainydays</h3>
-                        <p>A website to shop outdoor jackets.</p>
-                    </div>
+            </section>
+        </div>
+        <section class="about-me">
+            <div class="about-me-container">
+                <h2>About Me</h2>
+                <div class="about-me-content">
+                    <p>Hello! I'm [Your Name], a passionate front-end developer with a love for creating beautiful and user-friendly websites. With a background in [Your Field or Experience], I specialize in crafting responsive and engaging web experiences using the latest technologies such as HTML, CSS, and JavaScript.
+
+                        My journey in web development began [Your Story or Background]. Since then, I've had the opportunity to work on a variety of projects, from small personal websites to large-scale applications. I'm constantly learning and exploring new techniques to improve my skills and stay updated with industry trends.
+                        
+                        When I'm not coding, you can find me [Your Interests or Hobbies]. I believe in the power of collaboration and enjoy working in teams to bring ideas to life. I'm excited to continue growing as a developer and contribute to meaningful projects that make a positive impact.
+                        
+                        Feel free to reach out if you'd like to collaborate or discuss any projects. I'm always open to new opportunities and eager to connect with fellow developers and enthusiasts. Let's create something amazing together!"
+                        </p>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="profile-image/edit dough dreams.png" alt="Dough Dreams screenshot of home page">
-                    </div>
-                    <div class="project-info">
-                        <h3>Dough Dreams</h3>
-                        <p>A responsive blogging application.</p>
-                    </div>
+            </div>
+        </section> 
+        <section class="contact-me">
+            <div class="contact-me-container">
+                <h2>Contact Me</h2>
+                <div class="contact-me-content">
+                    <p>Feel free to reach out to me via email or connect with me on social media:</p>
+                    <ul>
+                        <li>Email: veronica_asora@hotmail.com</li>
+                        <li>Instagram: <a href="#" target="_blank">Instagram Profile</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
+               
     </main>
 </body>
 </html>

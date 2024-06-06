@@ -1,0 +1,188 @@
+body {
+    font-family: 'Kaisei Tokumin', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.intro-text h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.intro-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.intro-image img {
+    width: 200px;
+    height: 230px;
+    border-radius: 40%; 
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container horizontally */
+    background-color: #2403;
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    padding: 20px; /* Add padding inside the container */
+}
+
+.portfolio {
+    padding: 80px 10px;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 0 10px; /* Add padding to the container */
+    max-width: 1200px; /* Add max-width to limit container width */
+    margin: 0 auto; /* Center the container horizontally */
+
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* Adjust the width here */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: scale(1.1); /* Scale up the card on hover */
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.project-info {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: auto;
+    border-style: outset;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #2403;
+}
+
+.project-info h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.about-me {
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container horizontally */
+    background-color: #ffffff;
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Increase shadow size and darkness */
+    padding: 40px; /* Add padding inside the container */
+}
+
+.about-me-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-me h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-me-content {
+    text-align: center;
+}
+
+.about-me-content p {
+    font-size: 16px;
+}
+
+.contact-me {
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container horizontally */
+    background-color: #2403;
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Increase shadow size and darkness */
+    padding: 40px; /* Add padding inside the container */
+}
+
+.contact-me-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-me h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-me-content {
+    text-align: center;
+}
+
+.contact-me-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-me-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-me-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
