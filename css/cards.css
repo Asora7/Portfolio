@@ -22,12 +22,13 @@ font-family: 'Kaisei Tokumin', Arial, Helvetica, sans-serif;
     max-width: 1200px;
     height: auto;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-.project-image .rainydays-image {
-    max-width: 600px; 
-    height: auto; 
+.project-image .dough-dreams-image{
+    margin-top: -4rem;
 }
+
 
 .project-description {
     margin-top: 20px;
@@ -37,6 +38,16 @@ font-family: 'Kaisei Tokumin', Arial, Helvetica, sans-serif;
     padding: 20px; 
     max-width: 1200px; 
     margin: 20px auto; 
+}
+
+.key-features, .project-links {
+    background-color: #2403; 
+    border-radius: 10px; 
+    margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+    max-width: 600px; 
+    min-width: 600px;
 }
 
 .project-description p {
