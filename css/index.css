@@ -187,6 +187,13 @@ body {
     margin-bottom: 10px;
 }
 
+.container, 
+.about-me, 
+.contact-me  {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 @media only screen and (max-width: 913px) {
     .introduction {
