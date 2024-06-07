@@ -9,26 +9,40 @@ font-family: 'Kaisei Tokumin', Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
+.project-details h1 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color:#2403 ;
+    border-radius: 10px;
+}
+
 .project-image img {
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     height: auto;
     border-radius: 10px;
 }
 
+.project-image .rainydays-image {
+    max-width: 600px; 
+    height: auto; 
+}
+
 .project-description {
     margin-top: 20px;
-    background-color: #ffffff; /* Set background color to white */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-    padding: 20px; /* Add padding inside the container */
-    max-width: 800px; /* Set a maximum width for the description */
-    margin: 20px auto; /* Center the container and add top/bottom margin */
+    background-color: #2403; 
+    border-radius: 10px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: 20px auto; 
 }
 
 .project-description p {
     font-size: 18px;
-    margin: 0 auto;
+    margin: 30px 0;
+    line-height: 2;
 }
 
 .project-links {
@@ -39,12 +53,12 @@ font-family: 'Kaisei Tokumin', Arial, Helvetica, sans-serif;
     display: inline-block;
     margin: 0 10px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #195f21;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .project-links a:hover {
-    background-color: #0056b3;
+    background-color: #13481a;
 }

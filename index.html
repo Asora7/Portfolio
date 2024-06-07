@@ -7,35 +7,36 @@
     <link href="/css/index.css" rel="stylesheet">
     <link href="/css/header.css" rel="stylesheet">
     <link href="/css/global.css" rel="stylesheet">
-    <script src="index.js" defer></script>
+    <script src="/js/index.js" defer></script>
+    <script src="/js/global.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">VAS</div>
+        <a href="index.html" class="logo">VAS</a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="home">
         <section class="introduction">
             <div class="intro-text">
                 <h1>Hi, I am Veronica.</h1>
-                <h2>I am a Front-End Developer</h2>
-                <p>With a passion for creating beautiful and functional user interfaces, I specialize in HTML, CSS, JavaScript, and modern frameworks like React. I enjoy bringing ideas to life in the browser and constantly learning new technologies to improve my skills.</p>
+                <h2>I am a Front-End Developer Student</h2>
+                <p>With a passion for creating beautiful and functional user interfaces, I manage HTML, CSS, JavaScript. I enjoy bringing ideas to life in the browser and constantly learning new technologies to improve my skills.</p>
             </div>
             <div class="intro-image">
                 <img src="profile-image/436535772_481564420937970_5347353410135299710_n.jpg" alt="Veronica">
             </div>
         </section>
-        <div class="container">
+        <div class="container" id="portfolio">
             <section class="portfolio">
                 <h2>My Projects</h2>
                 <div class="projects-container">
@@ -69,34 +70,37 @@
                 </div>
             </section>
         </div>
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <div class="about-me-container">
                 <h2>About Me</h2>
                 <div class="about-me-content">
-                    <p>Hello! I'm [Your Name], a passionate front-end developer with a love for creating beautiful and user-friendly websites. With a background in [Your Field or Experience], I specialize in crafting responsive and engaging web experiences using the latest technologies such as HTML, CSS, and JavaScript.
+                    <p>Hello! I'm Veronica, a passionate front-end developer student with a love for creating beautiful and user-friendly websites. With a background in web development, I specialize in crafting responsive and engaging web experiences using the latest technologies such as HTML, CSS, and JavaScript.
 
-                        My journey in web development began [Your Story or Background]. Since then, I've had the opportunity to work on a variety of projects, from small personal websites to large-scale applications. I'm constantly learning and exploring new techniques to improve my skills and stay updated with industry trends.
+                        My journey in web development began with a strong interest in creating visually appealing and functional websites. Since then, I've had the opportunity to work on a variety of projects in school, from small personal websites to bigger applications. I'm constantly learning and exploring new techniques to improve my skills and stay updated with industry trends.
                         
-                        When I'm not coding, you can find me [Your Interests or Hobbies]. I believe in the power of collaboration and enjoy working in teams to bring ideas to life. I'm excited to continue growing as a developer and contribute to meaningful projects that make a positive impact.
+                        When I'm not coding, you can find me in the nature with my dog or out enjoying life with good friends. I believe in the power of collaboration and enjoy working in teams to bring ideas to life. I'm excited to continue growing as a developer and contribute to meaningful projects that make a positive impact.
                         
                         Feel free to reach out if you'd like to collaborate or discuss any projects. I'm always open to new opportunities and eager to connect with fellow developers and enthusiasts. Let's create something amazing together!"
                         </p>
                 </div>
             </div>
         </section> 
-        <section class="contact-me">
+        <section class="contact-me" id="contact-me">
             <div class="contact-me-container">
                 <h2>Contact Me</h2>
                 <div class="contact-me-content">
                     <p>Feel free to reach out to me via email or connect with me on social media:</p>
                     <ul>
                         <li>Email: veronica_asora@hotmail.com</li>
-                        <li>Instagram: <a href="#" target="_blank">Instagram Profile</a></li>
+                        <li>Instagram: <a href="https://www.instagram.com/veronicaasora/" target="_blank">Instagram Profile</a></li>
                     </ul>
                 </div>
             </div>
         </section>
-               
     </main>
+    <footer>
+        <div class="logo">VAS</div>
+        <p class="copyright">&copy; 2024 Veronica's Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -30,7 +30,7 @@ body {
 
 .intro-text p {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .intro-image img {
@@ -120,12 +120,12 @@ body {
 }
 
 .about-me {
-    max-width: 1200px; /* Set a maximum width for the container */
-    margin: 50px auto; /* Center the container horizontally */
+    max-width: 1200px; 
+    margin: 50px auto; 
     background-color: #ffffff;
-    border-radius: 10px; /* Add rounded corners to the container */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Increase shadow size and darkness */
-    padding: 40px; /* Add padding inside the container */
+    border-radius: 10px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    padding: 40px; 
 }
 
 .about-me-container {
@@ -145,15 +145,16 @@ body {
 
 .about-me-content p {
     font-size: 16px;
+    line-height: 2.2;
 }
 
 .contact-me {
-    max-width: 1200px; /* Set a maximum width for the container */
-    margin: 50px auto; /* Center the container horizontally */
+    max-width: 1200px; 
+    margin: 50px auto;
     background-color: #2403;
-    border-radius: 10px; /* Add rounded corners to the container */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Increase shadow size and darkness */
-    padding: 40px; /* Add padding inside the container */
+    border-radius: 10px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    padding: 40px;
 }
 
 .contact-me-container {
