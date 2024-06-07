@@ -187,3 +187,103 @@ body {
     margin-bottom: 10px;
 }
 
+/* For Tablets */
+@media only screen and (max-width: 1024px) {
+    .introduction {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .intro-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .intro-image {
+        text-align: center;
+    }
+    .intro-image img {
+        width: 100%;
+        height: auto;
+    }
+    .container {
+        padding: 30px;
+    }
+}
+
+/* For iPhones and Small Devices */
+@media only screen and (max-width: 600px) {
+    .introduction {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .projects-container {
+        gap: 20px;
+    }
+    .project-card {
+        width: calc(50% - 20px);
+    }
+    .portfolio h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .project-info {
+        padding: 10px;
+    }
+    .project-info h3 {
+        font-size: 16px;
+    }
+    .project-info p {
+        font-size: 12px;
+    }
+    .about-me {
+        padding: 20px;
+    }
+    .about-me h2 {
+        font-size: 24px;
+    }
+    .about-me-content p {
+        font-size: 14px;
+    }
+    .contact-me {
+        padding: 20px;
+    }
+    .contact-me h2 {
+        font-size: 24px;
+    }
+    .contact-me-content p {
+        font-size: 14px;
+    }
+}
+
+/* For Large iPhones and Landscape Tablets */
+@media only screen and (max-width: 768px) {
+    .project-card {
+        width: calc(33.33% - 20px);
+    }
+}
+
+/* For Very Small Devices */
+@media only screen and (max-width: 400px) {
+    .introduction {
+        padding: 20px;
+    }
+    .portfolio {
+        padding: 60px 10px;
+    }
+    .portfolio h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .about-me {
+        padding: 30px;
+    }
+    .about-me h2 {
+        font-size: 22px;
+    }
+    .contact-me {
+        padding: 30px;
+    }
+    .contact-me h2 {
+        font-size: 22px;
+    }
+}
