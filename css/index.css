@@ -204,11 +204,11 @@ body {
         padding: 20px;
     }
     .intro-text {
-        max-width: 100%;
+        max-width: 50%;
         margin-bottom: 20px;
     }
     .intro-text h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
     .intro-text h2 {
         font-size: 18px;
@@ -222,7 +222,7 @@ body {
         border-radius: 20%;
     }
     .portfolio h2 {
-        font-size: 22px;
+        font-size: 26px;
     }
     .projects-container {
         gap: 30px;
@@ -253,42 +253,57 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+
+    .intro-text {
+        max-width: 100%;
+    }
+
+    .intro-text h1 {
+        font-size: 24px;
+    }
+
+    .intro-text h2 {
+        font-size: 16px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
     .projects-container {
         gap: 20px;
     }
-    .project-card {
-        width: calc(50% - 20px);
-    }
+
     .portfolio h2 {
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 20px;
     }
+
     .project-info {
         padding: 10px;
     }
+
     .project-info h3 {
         font-size: 16px;
     }
+
     .project-info p {
         font-size: 12px;
     }
+
     .about-me {
         padding: 20px;
     }
+
     .about-me h2 {
         font-size: 24px;
     }
-    .about-me-content p {
-        font-size: 14px;
-    }
+
     .contact-me {
         padding: 20px;
     }
     .contact-me h2 {
         font-size: 24px;
-    }
-    .contact-me-content p {
-        font-size: 14px;
     }
 }
 
@@ -297,13 +312,9 @@ body {
     
 
 
-@media only screen and (max-width: 400px) {
-    .introduction {
-        padding: 20px;
-    }
-    .portfolio {
-        padding: 60px 10px;
-    }
+/* @media only screen and (max-width: 400px) {
+
+
     .portfolio h2 {
         font-size: 22px;
         margin-bottom: 30px;
