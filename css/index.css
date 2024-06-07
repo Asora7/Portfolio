@@ -187,30 +187,12 @@ body {
     margin-bottom: 10px;
 }
 
-/* For Tablets */
+
 @media only screen and (max-width: 1024px) {
-    .introduction {
-        flex-direction: column;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .intro-text {
-        max-width: 100%;
-        margin-bottom: 30px;
-    }
-    .intro-image {
-        text-align: center;
-    }
-    .intro-image img {
-        width: 100%;
-        height: auto;
-    }
-    .container {
-        padding: 30px;
-    }
+
 }
 
-/* For iPhones and Small Devices */
+
 @media only screen and (max-width: 600px) {
     .introduction {
         margin-left: 10px;
@@ -255,14 +237,7 @@ body {
     }
 }
 
-/* For Large iPhones and Landscape Tablets */
-@media only screen and (max-width: 768px) {
-    .project-card {
-        width: calc(33.33% - 20px);
-    }
-}
 
-/* For Very Small Devices */
 @media only screen and (max-width: 400px) {
     .introduction {
         padding: 20px;
