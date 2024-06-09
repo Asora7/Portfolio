@@ -20,3 +20,14 @@ projectCards.forEach(card => {
         }
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const burgerMenu = document.querySelector('.burger-menu');
+    const dropdownContainer = document.querySelector('.dropdown-container');
+
+    burgerMenu.addEventListener('click', () => {
+        dropdownContainer.classList.toggle('active');
+    });
+});
+
