@@ -81,4 +81,9 @@ font-family: 'Kaisei Tokumin', Arial, Helvetica, sans-serif;
         padding: 10px; 
         font-size: 14px; 
     }
+
+    .project-description p,
+    .key-features p {
+    word-wrap: break-word; 
+}
 }
