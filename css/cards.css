@@ -77,7 +77,7 @@ font-family: 'Kaisei Tokumin', Arial, Helvetica, sans-serif;
 @media only screen and (max-width: 913px) {
 
     .key-features, .project-links, .project-description {
-        max-width: 90%;
+        max-width: 400px;
         padding: 10px; 
         font-size: 14px; 
     }
