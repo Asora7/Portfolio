@@ -2,7 +2,7 @@
 
 ## Description
 
-A modern, colorful, accessible, and responsive web presence for the Community Science Museum, aimed at primary and middle school children (ages 7-15) and families with young children.
+My portfolio is a collection of projects that I've worked on to demonstrate my capabilities as a developer. From web development to data analysis, each project represents a unique challenge and opportunity for growth.
 
 - Oslo Science Museum : a website for A childern science museum built with Html and CSS.
 - Rainydays : a website for buying outdoor jackets, built with HTML, CSS and JS
