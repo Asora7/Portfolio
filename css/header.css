@@ -37,11 +37,6 @@ nav ul li a {
     font-size: 18px; 
 }
 
-footer {
-    margin-top: 10rem;
-    text-align: center;
-}
-
 .burger-menu {
     display: none;
 }
@@ -55,6 +50,11 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+footer {
+    margin-top: 10rem;
+    text-align: center;
 }
 
 @media only screen and (max-width: 913px) {
