@@ -1,5 +1,7 @@
 # Portfolio
 
+![Portfolio Logo](https://raw.githubusercontent.com/Asora7/Portfolio/main/profile-image/VASlogo.png)
+
 ## Description
 
 My portfolio is a collection of projects that I've worked on to demonstrate my capabilities as a developer. From web development to data analysis, each project represents a unique challenge and opportunity for growth.
