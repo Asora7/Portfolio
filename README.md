@@ -9,9 +9,13 @@ This is my portfolio website where you can read about me and view my recent proj
 
 Welcome to my portfolio! Here you will find a selection of my projects that showcase my skills in web development, particularly in HTML, CSS, and JavaScript. Each project demonstrates my ability to create responsive, accessible, and user-friendly websites. Below is an overview of my featured projects.
 
-- Oslo Science Museum - a website for a childern science museum built with Html and CSS.
-- Rainydays - a website for buying outdoor jackets, built with HTML, CSS and Javascript
-- Dough Dreams - Dough Dreams is a responsive blogging application designed to manage and showcase pastry and cake recipes. Built with HTML, CSS, Javascript and API.
+- [Dough Dreams](https://github.com/NoroffFEU/FED1-PE1-Asora7.git): A blogging application where the owner can post and edit blog posts about baking. Includes admin login for managing content. Using HTML, CSS and Javascript
+  
+- [Oslo Science Museum](https://github.com/Asora7/Semester-project-1.git): A website for a science museum for children. Using HTML and CSS
+  
+- [Rainydays](https://github.com/Asora7/rainydays.git): A website that sells outdoor jackets. Users can browse the collection, view detailed information about each jacket, and add items to their shopping basket. Using HTML, CSS and Javascript
+  
+- [Portfolio](https://github.com/Asora7/Portfolio.git): My portfolio including my projects. 
   
 
 ## Built With
