@@ -24,12 +24,12 @@ function addLinks() {
         anchor.href = link.url;
         anchor.textContent = link.text;
         anchor.classList.add('project-link');
+        anchor.target = '_blank'; 
         projectLinks.appendChild(anchor);
     });
 }
 
 window.onload = addLinks;
-
 
 document.addEventListener('DOMContentLoaded', () => {
     const burgerMenu = document.querySelector('.burger-menu');
@@ -39,3 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
         dropdownContainer.classList.toggle('active');
     });
 });
+

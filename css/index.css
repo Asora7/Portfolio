@@ -84,6 +84,11 @@ body {
     cursor: pointer;
 }
 
+.project-card a {
+    text-decoration: none;
+    color: black;
+}
+
 .project-card:hover {
     transform: scale(1.1); 
 }
@@ -96,17 +101,37 @@ body {
     margin-bottom: 20px;
 }
 
-.project-info {
+.links {
+    margin-top: auto;
 
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    background-color: #2403 ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px; 
+    display: inline-block;
+}
+
+.links a:hover {
+    background-color: rgba(72, 138, 2, 0.622);
+}
+
+.project-info {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: auto;
     border-style: outset;
+    border-width: 1px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #2403;
+    margin-bottom: 3rem;
 }
+
 
 .project-info h3 {
     font-size: 20px;
