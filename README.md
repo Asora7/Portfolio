@@ -27,6 +27,20 @@ Welcome to my portfolio! Here you will find a selection of my projects that show
   
 
 ## Getting Started
+Make sure you have git installed. Either install through website : 
+
+1. Visit the Website: Go to https://git-scm.com/downloads using your web browser.
+
+2. Download Installer: On the Git Downloads page, you'll see options to download Git for different operating systems (Windows, macOS, Linux, etc.). Choose the appropriate installer for your macOS system.
+
+3. Run the Installer: Once the download completes, locate the downloaded installer file (usually named something like git-<version>-intel-universal-mavericks.dmg for macOS).
+
+4. Install Git: Double-click the downloaded .dmg file to open it. Then, drag the Git icon into the Applications folder to install it. This will copy Git and its associated tools to your system.
+
+5. Verify Installation: After installation, open Terminal and type git --version to verify that Git has been installed correctly. It should display the version of Git installed on your system.
+
+Or you can install through terminal by following the command in the installing section below.
+
 
 ### Installing
 
