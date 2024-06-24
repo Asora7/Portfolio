@@ -30,19 +30,33 @@ Welcome to my portfolio! Here you will find a selection of my projects that show
 
 ### Installing
 
-1. Clone the repo:
+Ensure You Have Git Installed:
+
+1. If you don't have Homebrew installed, first install Homebrew by running:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+3. Open Terminal and type the following command:
+
+```bash
+brew install git
+```
+
+4. Clone the repo:
 
 ```bash
 git clone https://github.com/Asora7/Portfolio.git
 ```
 
-2. Navigate to the Project Directory:
+5. Navigate to the Project Directory:
    
 ```bash
 cd Portfolio
 ```
 
-3. Viewing the Project:
+6. Viewing the Project:
 
 ```bash
 open index.html
@@ -52,7 +66,7 @@ open index.html
 - View deployed link: https://asoraportfolio.netlify.app
 
 
-4. Locate the Portfolio folder locally on your computer:
+7. Locate the Portfolio folder locally on your computer:
 
 After cloning, the Portfolio folder should be located in your current directory. If you need to locate it:
 
@@ -63,7 +77,7 @@ After cloning, the Portfolio folder should be located in your current directory.
 - Once you locate the Portfolio folder, you can open it to access all project files, including index.html.
 
 
-5. Open in VS code:
+8. Open in VS code:
 
 To open the project in Visual Studio Code (VS Code), follow these steps:
 
