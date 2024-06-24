@@ -34,21 +34,6 @@ Make sure you have git installed.
 
 Ensure You Have Git Installed:
 
-You can either use the terminal to install or the website:
-
-- Visit the Website: Go to https://git-scm.com/downloads using your web browser.
-
-- Download Installer: On the Git Downloads page, you'll see options to download Git for different operating systems (Windows, macOS, Linux, etc.). Choose the appropriate installer for your macOS system.
-
-- Run the Installer: Once the download completes, locate the downloaded installer file (usually named something like git-<version>-intel-universal-mavericks.dmg for macOS).
-
-- Install Git: Double-click the downloaded .dmg file to open it. Then, drag the Git icon into the Applications folder to install it. This will copy Git and its associated tools to your system.
-
-- Verify Installation: After installation, open Terminal and type git --version to verify that Git has been installed correctly. It should display the version of Git installed on your system.
-
-
-Installing in terminal:
-
 
 1. If you don't have Homebrew installed, first install Homebrew by running:
 
@@ -61,6 +46,19 @@ Installing in terminal:
 ```bash
 brew install git
 ```
+
+Optional you can download it through the website:
+
+- Visit the Website: Go to https://git-scm.com/downloads using your web browser.
+
+- Download Installer: On the Git Downloads page, you'll see options to download Git for different operating systems (Windows, macOS, Linux, etc.). Choose the appropriate installer for your macOS system.
+
+- Run the Installer: Once the download completes, locate the downloaded installer file (usually named something like git-<version>-intel-universal-mavericks.dmg for macOS).
+
+- Install Git: Double-click the downloaded .dmg file to open it. Then, drag the Git icon into the Applications folder to install it. This will copy Git and its associated tools to your system.
+
+- Verify Installation: After installation, open Terminal and type git --version to verify that Git has been installed correctly. It should display the version of Git installed on your system.
+
 
 4. Clone the repo:
 
